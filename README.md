@@ -21,7 +21,7 @@ Before anybody jumps to conclusions, no that .env file in the repository does no
 ### Recording System
 The system took alot of fine tuning but this is the methods i used to make it work:
 
-1. **Game Recording**: Dedcon servers automatically record game sessions as `.dcrec` `.d8crec` `.d10crec` files (d8crec, d10crec for the larger player count servers)
+1. **Game Recording**: Dedcon servers can record game sessions as `.dcrec` `.d8crec` `.d10crec` files when configured (d8crec, d10crec for the larger player count servers)
 2. **Log Processing**: Python parsers extract detailed game data from server logs, creating `.json` files
 3. **Backend Processing**: The Node.js backend monitors directories for new recordings and log files
 4. **Database Integration**: When matching pairs of recording and log files are detected, the system:
