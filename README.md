@@ -13,6 +13,7 @@ Before anybody jumps to conclusions, no that .env file in the repository does no
 - **Discord Integration**: Bot that tracks live games and detects game alerts sent by players
 - **Log File Parsers**: Python scripts for extracting game data from Dedcon server logs
 - **Custom Dedcon Executables**: Modified with game alert functionality for Discord integration
+- **Database Schema**: I have provided a database dump that contains just the basic table and column structure
 - **Template .env File**: This file contains no credentials, i have provided an empty copy for anyone to fill in their own to get up and running.
 
 ## How Does It Work?
