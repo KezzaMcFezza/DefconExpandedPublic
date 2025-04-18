@@ -48,7 +48,7 @@ const DemosModule = (() => {
             }
 
             if (Auth.hasPermission(2)) {
-                actionsHtml += `<button onclick="AdminApp.deleteDemo(${demo.id})">Delete</button>`;
+                actionsHtml += `<button onclick="Adminrouter.deleteDemo(${demo.id})">Delete</button>`;
             }
 
             row.innerHTML = `

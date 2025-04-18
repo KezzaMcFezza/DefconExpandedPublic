@@ -47,7 +47,7 @@ const ResourcesModule = (() => {
             }
             
             if (Auth.hasPermission(1)) {
-                actionsHtml += `<button onclick="AdminApp.deleteResource(${resource.id})">Delete</button>`;
+                actionsHtml += `<button onclick="Adminrouter.deleteResource(${resource.id})">Delete</button>`;
             }
 
             let platformDisplay = resource.platform;

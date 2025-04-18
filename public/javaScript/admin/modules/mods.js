@@ -40,7 +40,7 @@ const ModsModule = (() => {
                 }
                 
                 if (Auth.hasPermission(1)) {
-                    actionsHtml += `<button onclick="AdminApp.deleteMod(${mod.id})">Delete</button>`;
+                    actionsHtml += `<button onclick="Adminrouter.deleteMod(${mod.id})">Delete</button>`;
                 }
                 
                 row.innerHTML = `

@@ -35,7 +35,7 @@ const UsersModule = (() => {
                 }
 
                 if (Auth.hasPermission(1)) {
-                    actionsHtml += `<button onclick="AdminApp.deleteUser(${user.id})">Delete</button>`;
+                    actionsHtml += `<button onclick="Adminrouter.deleteUser(${user.id})">Delete</button>`;
                 }
 
                 row.innerHTML = `

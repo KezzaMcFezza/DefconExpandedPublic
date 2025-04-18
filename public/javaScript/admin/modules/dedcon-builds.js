@@ -47,7 +47,7 @@ const DedconBuildsModule = (() => {
             }
             
             if (Auth.hasPermission(2)) {
-                actionsHtml += `<button onclick="AdminApp.deleteDedconBuild(${build.id})">Delete</button>`;
+                actionsHtml += `<button onclick="Adminrouter.deleteDedconBuild(${build.id})">Delete</button>`;
             }
 
             row.innerHTML = `
